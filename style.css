@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.js-slider{
+    width: 100%;
+    margin: 50px auto;
+}
+
+.js-slide img{
+    width: 100%;
+}
+
+
+.js-slider  button{
+    padding: 10px 32px;
+    cursor: pointer;
+    border: 0 none;
+    background: rgb(2, 14, 180);
+    color: #fff;
+    position: absolute;
+    bottom: -50px;
+}
+
+.js-slider  button.slick-next{
+    left: 150px;
+}

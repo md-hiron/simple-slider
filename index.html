@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="custom-slider-wrap">
+        <div class="js-slider">
+            <div class="js-slide">
+                <img src="image/food.jpeg" alt="">
+                <h2>Image 1</h2>
+            </div>
+            <div class="js-slide">
+                <img src="image/food2.jpeg" alt="">
+                <h2>Image 2</h2>
+            </div>
+            <div class="js-slide">
+                <img src="image/food3.jpeg" alt="">
+                <h2>Image 3</h2>
+            </div>
+            <div class="js-slide">
+                <img src="image/food4.jpg" alt="">
+                <h2>Image 4</h2>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+            $('.js-slider').slick({
+                slidesToShow: 1
+            });
+        });
+    </script>
+</body>
+</html>
